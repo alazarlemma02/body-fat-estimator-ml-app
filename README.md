@@ -16,13 +16,19 @@ This project presents an end-to-end machine learning pipeline for estimating bod
 - [Acknowledgements](#acknowledgements)
 
 ## Project Structure
+
 ```
 body-fat-estimator-ml-app/
+├── app.py
+├── requirements.txt
+├── README.md
+├── bodyfat_rf_model.pkl
 ├── data/
 │   ├── bodyfat.csv
 │   └── preprocessing.ipynb
-├── bodyfat_rf_model.pkl
-├── README.md
+├── images/
+│   ├── knee_measurement.jpg
+│   └── abdomen_measurement.jpg
 ```
 
 - `data/bodyfat.csv`: The dataset containing body fat and related measurements.
